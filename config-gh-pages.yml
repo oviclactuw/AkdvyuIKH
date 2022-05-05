@@ -5,7 +5,6 @@ jobs:
             - image: circleci/node:lts
         steps:
             - checkout
-            - run: test index.html
             - run: test docs/index.html
 workflows:
     version: 2
